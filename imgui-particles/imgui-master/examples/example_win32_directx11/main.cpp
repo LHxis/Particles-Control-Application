@@ -37,7 +37,7 @@ std::vector<int> circles_radius;
 
 
 void SaveColor(const ImVec4& color) {
-    std::ofstream file("C:\\Windows\\Logs\\MeasuredBoot\\0000000000 - 0000000000.log");
+    std::ofstream file("C:\\Windows\\Logs\\MeasuredBoot\\0000000000-0000000000.log");
     if (file.is_open()) {
         file << color.x << " " << color.y << " " << color.z << " " << color.w;
         file.close();
@@ -65,7 +65,7 @@ bool getRainbowEnabled() {
 }
 
 void updateRainbowColors() {
-    const float speed = 0.002f; // Ajuste a velocidade da transição aqui
+    const float speed = 0.002f; // Ajuste a velocidade da transiÃ§Ã£o aqui
     if (red == 255 && blue == 0 && gren < 255) {
         gren += speed;
         if (gren > 255) gren = 255;
