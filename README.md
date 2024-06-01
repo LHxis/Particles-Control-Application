@@ -10,7 +10,7 @@ Este projeto é uma aplicação C++ usando Dear ImGui com DirectX 11 que permite
 
 - **Interface Gráfica Interativa**: Implementada com Dear ImGui para uma interface de usuário moderna e fácil de usar.
 - **Controle de Conexão**: Ative ou desative linhas conforme necessário, proporcionando flexibilidade e controle em tempo real.
-- **Personalização de Cores**: Utilize o ColorPicker para escolher a cor desejada para cada linha.
+- **Personalização de Cores**: Utilize o ColorPicker para escolher a cor desejada para as linhas.
 - **Efeito Rainbow**: Opção para aplicar um efeito de arco-íris nas linhas, tornando-as visualmente atraentes.
 
 ## Requisitos
